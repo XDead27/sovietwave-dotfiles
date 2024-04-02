@@ -1,0 +1,3 @@
+text/html; cp %s ~/.cache/mutt/mail.html && lynx -assume_charset=%{charset} -display_charset=utf-8 -collapse_br_tags -dump %s; nametemplate=%s.html; copiousoutput
+# text/html; %s > ~/.local/share/mutt/temp.html; copiousoutput
+# text/html; cat %s; nametemplate=%s ; copiousoutput;

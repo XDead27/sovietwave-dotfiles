@@ -1,0 +1,64 @@
+* {
+  background-color: #00000000;
+  border-color: #e6d6d7;
+  text-color: #9c8c88;
+  spacing: 0;
+}
+
+#window {
+  width: 1100px;
+  height: 92.5%;
+}
+
+inputbar {
+  border: 5px 5px 5px 5px;
+  children: [prompt,entry];
+  background-color: #9c8c88;
+  text-color: #52170c;
+  margin: 0 0 0 555px;
+}
+
+prompt {
+  padding: 16px;
+  border: 0 0 0 0;
+  background-color: #9c8c88;
+  text-color: #52170c;
+}
+
+textbox {
+  background-color: #9c8c88;
+  border: 0 0 1px 0;
+  border-color: #282C33;
+  padding: 8px 16px;
+}
+
+entry {
+  padding: 16px;
+  text-color: #52170c;
+}
+
+listview {
+  cycle: false;
+  margin: -60px 560px -1px 0;
+  border: 5px 5px 5px 5px;
+  padding: 15px 3px 0px 3px;
+  scrollbar: false;
+  background-color: #352731;
+/*  width: 512px; */ /*technically*/
+}
+
+element {
+  border: 0px 0px 0px 0px;
+  border-color: #e6d6d7;
+  padding: 6px;
+  margin: 3px 3px 3px 3px;
+  text-align: center;
+  background-color: #352731;
+}
+
+element selected {
+/*  background-color: #2e343f;*/
+  border: 3px 3px 3px 3px;
+  border-color: #9c8c88;
+  text-color: #e6d6d7;
+}

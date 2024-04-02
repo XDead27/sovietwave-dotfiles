@@ -1,0 +1,175 @@
+[[colors.indexed_colors]]
+color = "#13121f"
+index = 16
+
+[colors.bright]
+black = "#352731"
+blue = "#9c8c88"
+cyan = "#cb805f"
+green = "#62393e"
+magenta = "#52170c"
+red = "#cb805f"
+white = "#9c8494"
+yellow = "#853d30"
+
+[colors.normal]
+black = "#352731"
+blue = "#52170c"
+cyan = "#cb805f"
+green = "#62393e"
+magenta = "#9c8c88"
+red = "#cb805f"
+white = "#6b5c59"
+yellow = "#853d30"
+
+[colors.primary]
+background = "#13121f"
+foreground = "#9c8c88"
+
+# [colors.primary.focused_match]
+# background = "CellForeground"
+# foreground = "CellBackground"
+ 
+# [colors.primary.matches]
+# background = "CellForeground"
+# foreground = "CellBackground"
+
+[env]
+TERM = "xterm-256color"
+WINIT_X11_SCALE_FACTOR = "1"
+
+[font]
+size = 15.0
+
+[font.normal]
+family = "Modern DOS 8x14"
+# family = "Repetition Scrolling"
+style = "Bold"
+
+[[keyboard.bindings]]
+action = "ScrollPageUp"
+key = "PageUp"
+mode = "~Alt"
+mods = "Shift"
+
+[[keyboard.bindings]]
+action = "ScrollPageDown"
+key = "PageDown"
+mode = "~Alt"
+mods = "Shift"
+
+[[keyboard.bindings]]
+action = "ScrollToTop"
+key = "Home"
+mode = "~Alt"
+mods = "Shift"
+
+[[keyboard.bindings]]
+action = "ScrollToBottom"
+key = "End"
+mode = "~Alt"
+mods = "Shift"
+
+[[keyboard.bindings]]
+action = "ScrollToBottom"
+key = "Space"
+mode = "Vi|~Search"
+mods = "Shift|Control"
+
+[[keyboard.bindings]]
+action = "ToggleViMode"
+key = "Space"
+mode = "~Search"
+mods = "Shift|Control"
+
+[[keyboard.bindings]]
+action = "ClearSelection"
+key = "Escape"
+mode = "Vi|~Search"
+
+[[keyboard.bindings]]
+action = "ToggleViMode"
+key = "I"
+mode = "Vi|~Search"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "Y"
+mode = "Vi|~Search"
+
+[[keyboard.bindings]]
+action = "ClearSelection"
+key = "Y"
+mode = "Vi|~Search"
+
+[[keyboard.bindings]]
+action = "ClearSelection"
+key = "Copy"
+mode = "Vi|~Search"
+
+[[keyboard.bindings]]
+action = "Up"
+key = "K"
+mode = "Vi|~Search"
+
+[[keyboard.bindings]]
+action = "Down"
+key = "J"
+mode = "Vi|~Search"
+
+[[keyboard.bindings]]
+action = "Left"
+key = "H"
+mode = "Vi|~Search"
+
+[[keyboard.bindings]]
+action = "Right"
+key = "L"
+mode = "Vi|~Search"
+
+[[keyboard.bindings]]
+action = "Up"
+key = "Up"
+mode = "Vi|~Search"
+
+[[keyboard.bindings]]
+action = "Down"
+key = "Down"
+mode = "Vi|~Search"
+
+[[keyboard.bindings]]
+action = "Left"
+key = "Left"
+mode = "Vi|~Search"
+
+[[keyboard.bindings]]
+action = "Right"
+key = "Right"
+mode = "Vi|~Search"
+
+[mouse]
+hide_when_typing = true
+
+[[mouse.bindings]]
+action = "PasteSelection"
+mouse = "Middle"
+
+[[mouse.bindings]]
+action = "CopySelection"
+mouse = "Right"
+
+[[mouse.bindings]]
+action = "Open"
+mode = "Vi"
+mouse = "Left"
+
+[window]
+opacity = 0.8
+
+[window.class]
+general = "Terminal"
+instance = "Terminal"
+
+[window.dimensions]
+columns = 100
+lines = 60

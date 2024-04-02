@@ -1,0 +1,20 @@
+## General options
+set header_cache = "~/.cache/mutt"
+set imap_check_subscribed
+set imap_keepalive = 300
+unset imap_passive
+set mail_check = 60
+set mbox_type=Maildir
+
+## Content options
+macro index,pager \cb "<pipe-message> urlscan<Enter>" "call urlscan to extract URLs out of a message"
+macro attach,compose \cb "<pipe-entry> urlscan<Enter>" "call urlscan to extract URLs out of a message"
+set mailcap_path = "~/.config/mutt/mailcap"
+auto_view text/html
+
+## Colors
+source ~/.config/mutt/colors.linux
+
+## Macros
+macro pager 'V' "<shell-escape>alacritty -e ~/.config/mutt/scripts/browsh_serve.sh<enter>"
+

@@ -1,0 +1,73 @@
+{
+	"segments": {
+		"left": [
+			{
+				"function": "powerline.segments.shell.mode",
+				"after": " "
+			},
+			{
+				"function": "powerline.segments.common.net.hostname",
+				"priority": 10,
+				"after": " "
+			},
+			{
+				"function": "powerline.segments.common.env.user",
+				"after": " "
+			},
+			{
+				"function": "powerline.segments.common.env.virtualenv",
+				"priority": 50,
+				"after": " "
+			},
+			{
+				"function": "powerline.segments.shell.cwd",
+				"draw_hard_divider": 0,
+				"draw_soft_divider": 0,
+				"after": " "
+			},
+            {
+				"type": "string",
+				"name": "command",
+				"highlight_groups": ["command_symbol", "command"],
+                "contents": ""
+			}
+		],
+		"right": [
+			{
+				"function": "powerline.segments.shell.last_pipe_status",
+				"priority": 10,
+				"before": " ",
+                "after": " "
+			},
+			{
+				"function": "powerline.segments.common.vcs.stash",
+				"priority": 50,
+				"before": " "
+			},
+			{
+				"function": "powerline.segments.common.vcs.branch",
+				"priority": 40,
+				"before": " "
+			},
+			{
+				"function": "powerline.segments.common.net.external_ip",
+				"priority": 130,
+                "draw_soft_divider": 1,
+				"draw_hard_divider": 0,
+				"before": " ",
+                "after": " "
+			},
+			{
+				"function": "powerline.segments.common.time.date",
+				"priority": 110,
+                "before": " ",
+                "draw_soft_divider": 1,
+				"draw_hard_divider": 0,
+                "args": 
+                {
+                    "format": "%H:%M"
+                }
+			}
+		]
+	}
+}
