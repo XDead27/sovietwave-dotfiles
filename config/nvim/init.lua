@@ -1,1 +1,0 @@
-/home/mrxdead/MEGA/Documents/Backup/config/nvim/init.lua
